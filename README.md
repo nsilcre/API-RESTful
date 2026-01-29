@@ -51,7 +51,7 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
 }
 ```
 
-## 🖼️ Pruebas PostData
+## 🖼️ Pruebas PostMan
 
 ### 🔐 Login
 ![Login](Login.png)
