@@ -48,7 +48,8 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
   "anio_fabricacion": "2020-01-01",
   "disponibilidad": "si",
   "combustible": "hibrido"
-} ```
+}
+```
 
 ## 🖼️ Pruebas PostData
 
