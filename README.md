@@ -18,12 +18,5 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
 
 - Laravel
 - PHP
-- MySQL / MariaDB
-- Eloquent ORM
-- Validaciones HTTP
+- MySQL
 - API REST JSON
-
----
-
-## 📂 Estructura principal
-
