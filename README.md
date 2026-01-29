@@ -23,16 +23,18 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
 
 ---
 
-## 📄 Modelo de datos
+## 📄 Estructura de la tabla `posts` (vehículos)
 
-| Campo | Tipo | Descripción |
-|-------|------|------------|
-| matricula | string (PK) | Formato español: 1234 ABC |
-| marca | string | Marca del vehículo |
-| modelo | string | Modelo |
-| anio_fabricacion | date | Año de fabricación |
-| disponibilidad | string | si / no |
-| combustible | string | hibrido, diesel, gasolina, electrico |
+| # | Nombre            | Tipo                                      | Cotejamiento           | Nulo | Predeterminado | Extra     | Comentarios |
+|---|------------------|------------------------------------------|----------------------|------|----------------|----------|-------------|
+| 1 | matricula (PK)    | varchar(8)                               | utf8mb4_unicode_ci    | No   | Ninguna        |          | Clave primaria, única |
+| 2 | marca             | varchar(255)                             | utf8mb4_unicode_ci    | No   | Ninguna        |          |             |
+| 3 | modelo            | varchar(255)                             | utf8mb4_unicode_ci    | No   | Ninguna        |          |             |
+| 4 | anio_fabricacion  | date                                     |                      | No   | Ninguna        |          |             |
+| 5 | disponibilidad    | enum('si','no')                          | utf8mb4_unicode_ci    | No   | Ninguna        |          |             |
+| 6 | combustible       | enum('hibrido','diesel','gasolina','electrico') | utf8mb4_unicode_ci | No   | Ninguna        |          |             |
+| 7 | created_at        | timestamp                                |                      | Sí   | NULL           |          |             |
+| 8 | updated_at        | timestamp                                |                      | Sí   | NULL           |          |             |
 
 ---
 
@@ -47,3 +49,4 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
   "disponibilidad": "si",
   "combustible": "hibrido"
 }
+
