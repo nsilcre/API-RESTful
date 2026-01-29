@@ -20,3 +20,30 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
 - PHP
 - MySQL
 - API REST JSON
+
+---
+
+## 📄 Modelo de datos
+
+| Campo | Tipo | Descripción |
+|-------|------|------------|
+| matricula | string (PK) | Formato español: 1234 ABC |
+| marca | string | Marca del vehículo |
+| modelo | string | Modelo |
+| anio_fabricacion | date | Año de fabricación |
+| disponibilidad | string | si / no |
+| combustible | string | hibrido, diesel, gasolina, electrico |
+
+---
+
+## 📬 Ejemplo de JSON
+
+```json
+{
+  "matricula": "1234 BCD",
+  "marca": "Toyota",
+  "modelo": "Corolla",
+  "anio_fabricacion": "2020-01-01",
+  "disponibilidad": "si",
+  "combustible": "hibrido"
+}
