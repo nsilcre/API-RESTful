@@ -59,3 +59,10 @@ Cada vehículo se identifica mediante una **matrícula española válida** como 
 ### 📋 Listado de Vehiculos
 ![Vehículos](Database.png)
 
+### ✏️ Edición de Vehículo
+![Edición](edicion1.png)
+![Edición](edicion2.png)
+### ➕ Agregar Vehículo
+![Agregar](delete1.png)
+![Agregar](delete2.png)
+
